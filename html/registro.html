@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - ConquerBlocks</title>
+    <meta name="description" content="Formulario de registro para unirse a la academia ConquerBlocks.">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="..assets/img/logo.png" alt="Logotipo de ConquerBlocks" width="150">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="quienes-somos.html">Quiénes somos</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Registro de Nuevo Usuario</h1>
+            <p>Rellena el siguiente formulario para crear tu cuenta en ConquerBlocks.</p>
+
+            <form action="#" method="POST" enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Datos Personales</legend>
+
+                    <label for="nombre">Nombre completo:</label><br>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
+
+                    <label for="fecha_nac">Fecha de nacimiento:</label><br>
+                    <input type="date" id="fecha_nac" name="fecha_nac" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="direccion">Dirección:</label><br>
+                    <input type="text" id="direccion" name="direccion" required><br><br>
+
+                    <label for="web">Página web:</label><br>
+                    <input type="url" id="web" name="web"><br><br>
+
+                    <label for="foto">Foto de perfil:</label><br>
+                    <input type="file" id="foto" name="foto" accept="image/*"><br><br>
+
+                    <label for="bio">Biografía:</label><br>
+                    <textarea id="bio" name="bio" rows="5" cols="40"></textarea><br><br>
+                </fieldset>
+
+                <br>
+                <input type="submit" value="Registrarse">
+                <input type="reset" value="Limpiar formulario">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ConquerBlocks. Todos los derechos reservados.</p>
+        <a href="aviso-legal.html">Aviso Legal</a>
+    </footer>
+</body>
+
+</html>
